@@ -12,6 +12,5 @@ This is my web automation script generated with Python and Selenium.
 	d) On the same page, will locate relevant books elements by XPATH, open the page for each book and add them to cart;\
 	e) Page will be redirected to the homepage, script will locate and return the length of list with all elements having a specific CLASS_NAME;\
 	f) It will navigate through pages by opening each button from navigation bar, redirecting to: "https://carturesti.ro/info/despre-carturesti-ro", "https://carturesti.ro/librarii", "https://carturesti.ro/blog";
-
  	g) Page will be redirected to the homepage and will automatically fill in and submit web form in order to subscribe to the website newsletter;\
 	h) Browser will close.
