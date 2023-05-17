@@ -59,12 +59,12 @@ email = driver.find_element(By.XPATH, '//*[@id="mce-EMAIL"]')
 email.send_keys("angheletcristina@yahoo.com")
 time.sleep(3)
 
-first_name = driver.find_element(By.XPATH,  '//*[@id="mce-FNAME"]')
-first_name.send_keys("Anghelet")
+last_name = driver.find_element(By.XPATH,  '//*[@id="mce-FNAME"]')
+last_name.send_keys("Anghelet")
 time.sleep(3)
 
-last_name = driver.find_element(By.XPATH, '//*[@id="mce-LNAME"]')
-last_name.send_keys("Cristina")
+first_name = driver.find_element(By.XPATH, '//*[@id="mce-LNAME"]')
+first_name.send_keys("Cristina")
 time.sleep(3)
 
 subscribe_newsletter = driver.find_element(By.XPATH, '//*[@id="mc-embedded-subscribe"]')
